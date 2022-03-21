@@ -1,0 +1,24 @@
+{
+  "name": "http-nodejs-adafruit",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type":"module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/datphamcode295/http-nodejs-adafruit.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/datphamcode295/http-nodejs-adafruit/issues"
+  },
+  "homepage": "https://github.com/datphamcode295/http-nodejs-adafruit#readme",
+  "dependencies": {
+    "node-fetch": "^3.2.3"
+  }
+}
