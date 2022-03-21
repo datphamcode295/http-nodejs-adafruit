@@ -1,11 +1,11 @@
 import fetch from "node-fetch";
 
-var username = 'vandat2000';
-var key = 'aio_Pjsb548mVRnhFumLzS7rHLrILHZX';
+var username = '';
+var key = '';
 
 //first way to call post method
 
-fetch(`https://io.adafruit.com/api/v2/vandat2000/feeds/temp/data?X-AIO-Key=${key}`, {
+fetch(`https://io.adafruit.com/api/v2//${username}/feeds/temp/data?X-AIO-Key=${key}`, {
       method: 'POST',
       headers: {
         'Accept': 'application/json',
